@@ -13,8 +13,8 @@
 The project follows **Clean Architecture + MVVM** principles using **Kotlin Coroutines and Flow**:
 
 1. **Presentation Layer (View + ViewModel)**
-    - **ViewModel (`HomeViewModel`)** handles UI logic: fetching data, handling form events, and calculating currency conversion.
-    - Uses **StateFlow** to hold screen state (`HomeScreenUiState`) and **SharedFlow** for form events (`FormEvent`).
+    - **ViewModel (`ExchangeViewModel`)** handles UI logic: fetching data, handling form events, and calculating currency conversion.
+    - Uses **StateFlow** to hold screen state (`ExchangeScreenUiState`) and **SharedFlow** for form events (`FormEvent`).
     - `viewModelScope` + coroutines handle asynchronous operations.
 
 2. **Domain Layer (Use Case)**
