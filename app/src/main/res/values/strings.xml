@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DollarApp</string>
+
+    <string name="text_entry_error">Error</string>
+
+    <string name="dialog_currency_selector_header">Choose currency</string>
+
+    <string name="header">Exchange calculator</string>
+    <string name="loading">Loading…</string>
+
+</resources>
